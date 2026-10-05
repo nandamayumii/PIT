@@ -1,0 +1,6 @@
+br\edu\catalogo\dao\ItemMidiaDAO.class
+br\edu\catalogo\controller\ItemMidiaServlet.class
+br\edu\catalogo\service\ItemMidiaService.class
+br\edu\catalogo\util\ConexaoBD.class
+br\edu\catalogo\service\ValidacaoException.class
+br\edu\catalogo\model\ItemMidia.class

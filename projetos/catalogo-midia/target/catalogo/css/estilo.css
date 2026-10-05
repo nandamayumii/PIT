@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f6f8; color: #222; }
+.topo { background: #0b6b66; color: #fff; padding: 14px 24px; display: flex;
+        justify-content: space-between; align-items: center; }
+.logo { color: #fff; text-decoration: none; font-size: 1.3rem; font-weight: bold; }
+.conteudo { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+.rodape { text-align: center; color: #777; font-size: .85rem; padding: 24px; }
+h1 { margin-top: 0; }
+.btn, button.btn { background: #0b6b66; color: #fff; border: 0; padding: 9px 16px;
+        border-radius: 6px; text-decoration: none; cursor: pointer; font-size: .95rem; display: inline-block; }
+.btn:hover { background: #09524e; }
+.btn.secundario { background: #6c757d; }
+.busca { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.busca input, .busca select { padding: 9px; border: 1px solid #bbb; border-radius: 6px; }
+.busca input[type=text] { flex: 1; min-width: 220px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden;
+        box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #e8f0ef; }
+.acoes { white-space: nowrap; }
+.acoes form { display: inline; }
+.acoes a, button.link { color: #0b6b66; margin-right: 8px; background: none; border: 0;
+        cursor: pointer; font-size: 1rem; padding: 0; text-decoration: underline; }
+button.perigo { color: #c0392b; }
+.estrelas { color: #e5a400; letter-spacing: 2px; white-space: nowrap; }
+.vazio { background: #fff; padding: 24px; border-radius: 8px; text-align: center; color: #666; }
+.alerta { padding: 12px 16px; border-radius: 6px; margin-bottom: 16px; }
+.alerta.sucesso { background: #d4edda; color: #155724; }
+.alerta.erro { background: #f8d7da; color: #721c24; }
+.alerta ul { margin: 6px 0 0 18px; padding: 0; }
+.formulario { background: #fff; padding: 20px; border-radius: 8px; display: grid; gap: 14px;
+        box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.formulario label { display: flex; flex-direction: column; gap: 4px; font-weight: bold; font-size: .9rem; }
+.formulario input, .formulario select, .formulario textarea { padding: 9px; border: 1px solid #bbb;
+        border-radius: 6px; font: inherit; font-weight: normal; }
+.botoes { display: flex; gap: 8px; }
+.detalhes { display: flex; gap: 24px; background: #fff; padding: 24px; border-radius: 8px;
+        box-shadow: 0 1px 4px rgba(0,0,0,.1); flex-wrap: wrap; }
+.capa { max-width: 220px; border-radius: 6px; align-self: flex-start; }
+.sinopse { white-space: pre-line; }
